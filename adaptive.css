@@ -1,0 +1,63 @@
+@media(max-width:1000px) {
+ .flex-container{
+  flex-direction: column;
+  gap: 20px;
+ }
+ .footer{
+  flex-direction: column;
+  gap: 20px;
+ }
+  }
+@media(max-width:577px) {
+.game-1__conteiner{
+    margin: 0;
+}
+.grid{
+  grid-template-columns:  0.3fr 0.3fr 0.3fr;
+  margin: auto;
+}
+}
+@media(max-width:830px) {
+.game-6__conteiner{
+  flex-direction: column;
+}
+.menu-left{
+  flex-direction: column;
+}
+}
+@media(max-width:500px) {
+    .game-3__conteiner{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .sample-slider{
+      width:100%;
+  }
+  .sample-slider img{
+      width: 110%;
+  }
+  .containerA{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container{
+    flex-direction: column;
+    gap: 20px;
+  }
+    }
+    @media(max-width:833px) {
+      .game-2__conteiner{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .game-1__conteiner{
+        margin: 0;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+        }
